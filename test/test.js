@@ -1,0 +1,6 @@
+var BigNum = require('../bignumber')
+var num = new BigNum(10)
+num.mul(11)
+console.log(num.toString())
+num.mul(0)
+console.log(num.toString())
